@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 import 'scroll_app_bar_controller.dart';
 
-class ScrollAppBar extends StatefulWidget with PreferredSizeWidget {
+class ScrollAppBar extends StatefulWidget implements PreferredSizeWidget {
   ScrollAppBar(
       {Key? key,
       required this.controller,
